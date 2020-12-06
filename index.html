@@ -1,0 +1,125 @@
+<!-- Student Name: Lingxiang Fan
+Student ID: 134026194 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Ling's Grocery</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Source+Code+Pro:ital,wght@1,700&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <img id="headercontent" src="./images/logo.png" alt="logo" />
+      </header>
+      <nav>
+        <ul>
+          <li id="home">
+            <a href="#top">Home</a>
+          </li>
+          <li id="fruits">
+            <a href="#Fruits">Fruits</a>
+          </li>
+          <li id="drinks">
+            <a href="#Drinks">Drinks</a>
+          </li>
+          <li id="meat">
+            <a href="#Meat">Meats</a>
+            <ul>
+              <li id="beaf">
+                <a href="#Beaf">Beaf</a>
+              </li>
+              <li id="chicken">
+                <a href="#Chicken">Chicken</a>
+              </li>
+              <li id="pork">
+                <a href="#Pork">Pork</a>
+              </li>
+            </ul>
+          </li>
+          <li id="snack">
+            <a href="#Chips">Chips & Snacks</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main>
+        <h2 id="subtitle">Welcome to Ling's Grocery</h2>
+
+        <!-- <div id="search">
+          <span class="material-icons">
+            search
+          </span>
+        </div>
+        <form action="#">
+          <input id="searchInput" type="text" name="search" size="10" placeholder="Search" />
+        </form> -->
+        <p id="introduction">
+          We promise that your purchase will be delivered FREE to your home within two hours!
+        </p>
+        <p id="location"></p>
+        <div id="items">
+          <figure>
+            <img src="./images/homedisplay1.jpg" alt="display" />
+          </figure>
+          <figure>
+            <img src="./images/homedisplay2.jpg" alt="display" />
+          </figure>
+          <figure>
+            <img src="./images/homedisplay3.jpg" alt="display" />
+          </figure>
+          <figure>
+            <img src="./images/homedisplay4.jpg" alt="display" />
+          </figure>
+        </div>
+      </main>
+      <div class="clear"></div>
+      <footer>
+        <div id="footercontent">
+          <p id="contact">Contact me</p>
+          <a id="facebook" href="https://www.facebook.com/" target="_blank">
+            <span class="material-icons">
+              facebook
+            </span>
+          </a>
+          <a id="emailaddress" href="mailto:lfan22@myseneca.ca"
+            ><span id="emailme">| Email me</span></a
+          >
+          <div class="Subscribe">
+            <form id="Subscribe" action="https://formspree.io/f/mbjpanky" method="POST">
+              <input
+                type="email"
+                name="email"
+                maxlength="30"
+                placeholder="address@email.com"
+                required
+              /><br />
+              <input type="submit" value="SUBSCRIBE" />
+            </form>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./index.js"></script>
+    <script src="./items.js"></script>
+    <script src="./ui.js"></script>
+    <script src="./util.js"></script>
+  </body>
+</html>
