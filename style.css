@@ -184,14 +184,13 @@ div figure img {
 footer {
   position: absolute;
   min-width: 100%;
-  height: 8em;
+  height: 10em;
   bottom: -9%;
   background-color: #f2f1ef;
 }
 #footercontent {
   margin: auto;
   margin-left: 13%;
-  float: left;
 }
 
 #facebook {
@@ -201,11 +200,10 @@ footer {
   text-decoration: none;
 }
 .Subscribe {
-  /* display: inline; */
-  position: absolute;
-  margin-top: -2em;
-  margin-left: 40%;
-  /* float: right; */
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10em;
+  margin-left: 3em;
 }
 input[type='email'] {
   padding: 0.3em;
